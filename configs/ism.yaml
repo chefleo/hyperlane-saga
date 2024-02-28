@@ -1,0 +1,4 @@
+hyperbridgetest:
+  threshold: 1 # Number: Signatures required to approve a message
+  validators: # Array: List of validator addresses
+    - "0x4cDF9dd5d678E4274e5DBB902E91b80373899513"

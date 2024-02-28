@@ -1,0 +1,17 @@
+# Configs for describing chain metadata for use in Hyperlane deployments or apps
+# Consists of a map of chain names to metadata
+# Schema here: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/typescript/sdk/src/metadata/chainMetadataTypes.ts
+---
+# You can define a full config for a new chain
+hyperbridgetest:
+  # Required fields:
+  chainId: 55555 # Number: Use EIP-155 for EVM chains
+  domainId: 55555 # Number: Recommend matching chainId when possible
+  name: hyperbridgetest # String: Unique identifier for the chain, must match key above
+  protocol: ethereum # ProtocolType: Ethereum, Sealevel, etc.
+  rpcUrls: # Array: List of RPC configs
+    # Only http field is required
+    - http: https://hyperbridgetest-55555-1.jsonrpc.testnet-srv2.sagarpc.io # String: HTTP URL of the RPC endpoint (preferably HTTPS)
+  # Optional fields, not required for Hyperlane deployments but useful for apps:
+  isTestnet: true # Boolean: Whether the chain is considered a testnet or a mainnet
+

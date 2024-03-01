@@ -1,0 +1,10 @@
+{
+  "chainId": 55555,
+  "name": "SagaERC20",
+  "symbol": "SE",
+  "decimals": 18,
+  "type": "collateral",
+  "address": "0x96C63afD52f7aA53a98668D33FbC62Ff68b2eFe7",
+  "hypCollateralAddress": "0x241d20146221CB27D855F72dAcDc27871B244842",
+  "isNft": false
+}

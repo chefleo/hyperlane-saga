@@ -1,0 +1,10 @@
+{
+  "chainId": 55555,
+  "name": "Italy Trieste",
+  "symbol": "IT",
+  "decimals": 0,
+  "type": "collateral",
+  "address": "0x436eC2592407Cf404AA11321c8cC583e1161facA",
+  "hypCollateralAddress": "0xa708A1D842cd9b89a935B3DECab7372a5B137216",
+  "isNft": true
+}

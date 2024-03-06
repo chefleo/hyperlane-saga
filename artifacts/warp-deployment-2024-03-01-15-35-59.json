@@ -1,0 +1,10 @@
+{
+  "hyperbridgetest": {
+    "router": "0xa708A1D842cd9b89a935B3DECab7372a5B137216",
+    "tokenType": "collateral"
+  },
+  "sepolia": {
+    "router": "0x42A09eDF5Ad390aacaD8c5fF5BA634f074BD3414",
+    "tokenType": "synthetic"
+  }
+}

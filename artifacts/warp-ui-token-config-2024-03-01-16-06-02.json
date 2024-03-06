@@ -1,0 +1,10 @@
+{
+  "chainId": 11155111,
+  "name": "SNFTest Enumerable",
+  "symbol": "SNTE",
+  "decimals": 0,
+  "type": "collateral",
+  "address": "0xc5daDD8a338a288AACd9791c4c2e5C9Dd1B4DA53",
+  "hypCollateralAddress": "0xc87F9964202830645e88dC4DCe9d635521F27DaA",
+  "isNft": true
+}

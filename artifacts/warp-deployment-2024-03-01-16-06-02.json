@@ -1,0 +1,10 @@
+{
+  "sepolia": {
+    "router": "0xc87F9964202830645e88dC4DCe9d635521F27DaA",
+    "tokenType": "collateral"
+  },
+  "hyperbridgetest": {
+    "router": "0x264956Da0f909039aAb57324E7811d3315d6DcFd",
+    "tokenType": "synthetic"
+  }
+}

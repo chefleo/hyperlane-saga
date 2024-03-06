@@ -1,0 +1,10 @@
+{
+  "chainId": 55555,
+  "name": "Saga Hyperlane erc721",
+  "symbol": "SGH",
+  "decimals": 0,
+  "type": "collateral",
+  "address": "0x4a3fB3c8323938F585b682DefFC743aA77638710",
+  "hypCollateralAddress": "0xa2dCb2964BB47D9C13899C0eeFf22073B1798CC4",
+  "isNft": true
+}

@@ -1,8 +1,8 @@
 base:
   chainName: hyperbridgetest
   type: collateral
-  address: "0x96C63afD52f7aA53a98668D33FbC62Ff68b2eFe7"
-  isNft: false
+  address: "0xa2F7a20E4B3Ab85601Dc94576d017e42c95dED97"
+  isNft: true
 synthetics:
   - chainName: sepolia
 

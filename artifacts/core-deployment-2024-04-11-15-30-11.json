@@ -1,0 +1,16 @@
+{
+  "sepolia": {
+    "merkleRootMultisigIsmFactory": "0x0a71AcC99967829eE305a285750017C4916Ca269",
+    "messageIdMultisigIsmFactory": "0xFEb9585b2f948c1eD74034205a7439261a9d27DD",
+    "aggregationIsmFactory": "0xC83e12EF2627ACE445C298e6eC418684918a6002",
+    "aggregationHookFactory": "0x160C28C92cA453570aD7C031972b58d5Dd128F72",
+    "routingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad"
+  },
+  "omegachain": {
+    "merkleRootMultisigIsmFactory": "0x661bf78D00177Da1955376D592fa59B0864c6764",
+    "messageIdMultisigIsmFactory": "0xf2C4F5F0149B89ab6E7E095B4A6c710685Ca58F3",
+    "aggregationIsmFactory": "0x766dd4033b0De2DE6CDE7f8E6b4B0dE78c697cE3",
+    "aggregationHookFactory": "0xed9E9493679B2127f4Ea7cb0e3C25A5514E8e873",
+    "routingIsmFactory": "0xf7BCE0f98762a0DB16aba153EB088Ccf8FEBc974"
+  }
+}

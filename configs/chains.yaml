@@ -1,7 +1,7 @@
 omegachain:
   name: omegachain
   chainId: 1712771388991266
-  domainId: 1712771388991266
+  domainId: 55555
   protocol: ethereum
   rpcUrls:
     - http: https://omegachain-1712771388991266-1.jsonrpc.testnet.sagarpc.io

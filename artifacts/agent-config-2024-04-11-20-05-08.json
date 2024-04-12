@@ -1,37 +1,36 @@
 {
   "chains": {
-    "hyperbridgetest": {
-      "chainId": 55555,
+    "omegachain": {
+      "name": "omegachain",
+      "chainId": 1712771388991266,
       "domainId": 55555,
-      "name": "hyperbridgetest",
       "protocol": "ethereum",
       "rpcUrls": [
         {
-          "http": "https://hyperbridgetest-55555-1.jsonrpc.testnet-srv2.sagarpc.io"
+          "http": "https://omegachain-1712771388991266-1.jsonrpc.testnet.sagarpc.io"
         }
       ],
-      "isTestnet": true,
-      "merkleRootMultisigIsmFactory": "0x8f8BE8991Ddf5A52066B4F4a2f4214328AE130e5",
-      "messageIdMultisigIsmFactory": "0x3E06A12B96AA1616e4cC638F314ce80250277874",
-      "aggregationIsmFactory": "0x712196C579bAAE4c2d4aC8fF069c38D9F6944B12",
-      "aggregationHookFactory": "0x477435faa53C4bb8e29244C5856821d34A49d8cE",
-      "routingIsmFactory": "0x8d109a3B4609Ff352418e67817645fCB8BF36F69",
-      "interchainSecurityModule": "0x9c96Cd7A975Af34692F6A16Bf7Dc9cE871966DE9",
+      "merkleRootMultisigIsmFactory": "0xe04Ce43BA14F113cA40fA19b142E447bD0157b2D",
+      "messageIdMultisigIsmFactory": "0x85989E179EF0AEb7cC5593AEDcd9747d96601153",
+      "aggregationIsmFactory": "0x968289d1Bc2A97A6dd0D6f821Fb888c2D75e6349",
+      "aggregationHookFactory": "0x7Da3c1c2ce98E19e4Ff1c14d3B99eFFC91A6650e",
+      "routingIsmFactory": "0x6d90b723b221dba2184AC4f7C84306611b3EEd48",
+      "interchainSecurityModule": "0x14268bAD4eF3EB97a95e414D79423186b36107Df",
       "sepolia": {
-        "messageIdMultisigIsm": "0x2053D89B1d2B74B884e3e267faaE80Cd6c86b91e",
-        "merkleRootMultisigIsm": "0x28012A7Ed05F8868FA5b4437d979Dd584f27cbEa",
-        "staticAggregationIsm": "0x8919B289E8cE678f99aC546Ddb9cB1A578014c6c"
+        "messageIdMultisigIsm": "0x179f3B225f3Feffd9F9458f46754673882181517",
+        "merkleRootMultisigIsm": "0xd75831F83749c127D428a8d0365883AE85dA9532",
+        "staticAggregationIsm": "0x5C4E5ED3307cd301484bd3743F043bD81CD61763"
       },
-      "domainRoutingIsm": "0x9c96Cd7A975Af34692F6A16Bf7Dc9cE871966DE9",
-      "merkleTreeHook": "0xa80f950692059035e6F97C0DF06A58005898A363",
-      "protocolFee": "0x4A4eAB2D9a34Ab8121bD45d8F57F38754c83E560",
-      "mailbox": "0xD083D6689c5B6bC05d35694eE4A1299A74eA7CB1",
-      "proxyAdmin": "0xA082c0e5C3181Bdb3Df9DCf3B58A50dA2Cce78d0",
-      "validatorAnnounce": "0x603e9e1031CEe7f161B0621c3F12151c9aB9680D",
-      "testRecipient": "0x671e951Edab998A597306040e978A34CCd7f9089",
+      "domainRoutingIsm": "0x14268bAD4eF3EB97a95e414D79423186b36107Df",
+      "merkleTreeHook": "0xb83A087Ad401F1f752a28171855b63D5e803B6bE",
+      "protocolFee": "0xD177a4d3648951534Ca6AD4A9cf33A35d8342c4E",
+      "mailbox": "0xaEAE70201b5857CB651cEBc8a662a468D37d34a4",
+      "proxyAdmin": "0x24E944a97aee93D8Fd00749Ef2055E393ae4F723",
+      "validatorAnnounce": "0x9AE76be74FE67C865bb6e53C8401907fED1D8606",
+      "testRecipient": "0xC37Bfcc67781F85c6E059299c5e4CE46ae03eeeb",
       "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
       "index": {
-        "from": 1548
+        "from": 16643
       }
     },
     "sepolia": {
@@ -83,16 +82,16 @@
       "merkleTreeHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
       "validatorAnnounce": "0xE6105C59480a1B7DD3E4f28153aFdbE12F4CfCD9",
       "fallbackRoutingHook": "0x17Dc724B7a2F09141C13b8AC33B396073785c2BC",
-      "testRecipient": "0xA2ab92980aFb9A2ECA2090A69fF9919BCF802796",
+      "testRecipient": "0x16C9889512861Ee2bc4D2647843596e263C4c865",
       "testTokenRecipient": "0x031AD9c560D37baC7d6Bd2d27A2443bAfd10101A",
       "routingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad",
-      "interchainSecurityModule": "0x4b0236d3ccb13Ff19e7DB8CC27f488863B195102",
-      "hyperbridgetest": {
-        "messageIdMultisigIsm": "0x2a582622403D3Ce13b6E7040ea6Ec9cd2ed913D3",
-        "merkleRootMultisigIsm": "0xe7BFe89A608cf573BF77AB8896dc25F0f4105471",
-        "staticAggregationIsm": "0x9cd5d2Ab4Bb2Dd2818E18E11184Bc7E39b080f8A"
+      "interchainSecurityModule": "0x157665eC5F0a149035Bd8775FfC0A5AC326049e8",
+      "omegachain": {
+        "messageIdMultisigIsm": "0x21eD184727cD1D9333472C4d761372BbF7210E96",
+        "merkleRootMultisigIsm": "0x55e68CeB711416f47F062dcd6ce7e6017e0A3800",
+        "staticAggregationIsm": "0x94d8bAdc40Cd05B39408634895f62D5d4A23202B"
       },
-      "domainRoutingIsm": "0x4b0236d3ccb13Ff19e7DB8CC27f488863B195102",
+      "domainRoutingIsm": "0x157665eC5F0a149035Bd8775FfC0A5AC326049e8",
       "customHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
       "index": {
         "from": 4517401

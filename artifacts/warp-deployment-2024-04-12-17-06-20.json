@@ -1,0 +1,10 @@
+{
+  "omegachain": {
+    "router": "0x18c129707AfBc005Eb2519e35c2693EE9fe9407A",
+    "tokenType": "collateral"
+  },
+  "sepolia": {
+    "router": "0x6841A3df9D14b3511fA5EE0B099E4254Fc31b66C",
+    "tokenType": "synthetic"
+  }
+}

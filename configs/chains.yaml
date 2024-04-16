@@ -5,3 +5,7 @@ omegachain:
   protocol: ethereum
   rpcUrls:
     - http: https://omegachain-1712771388991266-1.jsonrpc.testnet.sagarpc.io
+  nativeToken:
+    name: ome
+    symbol: ome
+    decimals: 18

@@ -1,0 +1,8 @@
+base:
+  chainName: omegachain
+  type: native
+  address: "0x0000000000000000000000000000000000000000"
+  isNft: false
+synthetics:
+  - chainName: sepolia
+

@@ -1,0 +1,30 @@
+{
+  "tokens": [
+    {
+      "chainName": "omegachain",
+      "standard": "EvmHypNative",
+      "name": "ome",
+      "symbol": "ome",
+      "decimals": 18,
+      "addressOrDenom": "0xe88bE5F170dA6D224d56E83D8EacD3Ffde119452",
+      "connections": [
+        {
+          "token": "ethereum|sepolia|0x598c6bDf5C9942596ACBe9AcD33ba4E036348DfC"
+        }
+      ]
+    },
+    {
+      "chainName": "sepolia",
+      "standard": "EvmHypSynthetic",
+      "name": "ome",
+      "symbol": "ome",
+      "decimals": 18,
+      "addressOrDenom": "0x598c6bDf5C9942596ACBe9AcD33ba4E036348DfC",
+      "connections": [
+        {
+          "token": "ethereum|omegachain|0xe88bE5F170dA6D224d56E83D8EacD3Ffde119452"
+        }
+      ]
+    }
+  ]
+}

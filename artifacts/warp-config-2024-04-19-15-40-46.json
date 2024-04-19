@@ -1,0 +1,31 @@
+{
+  "tokens": [
+    {
+      "chainName": "omegachain",
+      "standard": "EvmHypCollateral",
+      "name": "OmegaERC20",
+      "symbol": "OE20",
+      "decimals": 18,
+      "addressOrDenom": "0x8fb8772B9aa7d383a7232dF5322fD621807C81f6",
+      "collateralAddressOrDenom": "0x21198920Bc56b73DBfbF547a6Ee8118A515Ce04D",
+      "connections": [
+        {
+          "token": "ethereum|sepolia|0x32D03fEf7109033909F14D197A02AbC7adF066aE"
+        }
+      ]
+    },
+    {
+      "chainName": "sepolia",
+      "standard": "EvmHypSynthetic",
+      "name": "OmegaERC20",
+      "symbol": "OE20",
+      "decimals": 18,
+      "addressOrDenom": "0x32D03fEf7109033909F14D197A02AbC7adF066aE",
+      "connections": [
+        {
+          "token": "ethereum|omegachain|0x8fb8772B9aa7d383a7232dF5322fD621807C81f6"
+        }
+      ]
+    }
+  ]
+}

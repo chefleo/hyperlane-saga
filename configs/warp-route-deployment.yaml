@@ -1,8 +1,7 @@
 base:
   chainName: omegachain
   type: collateral
-  address: "0x89Ce9335a7500737927e8feEA86aE9ED7cb0A000"
+  address: "0x21198920Bc56b73DBfbF547a6Ee8118A515Ce04D"
   isNft: false
 synthetics:
   - chainName: sepolia
-

@@ -1,0 +1,15 @@
+omegachain:
+  name: omegachain
+  chainId: 1712771388991266
+  domainId: 33333
+  protocol: ethereum
+  rpcUrls:
+    - http: https://omegachain-1712771388991266-1.jsonrpc.testnet.sagarpc.io
+
+  # Optional fields, not required for Hyperlane deployments but useful for apps
+  isTestnet: true
+
+  nativeToken:
+    name: ome
+    symbol: ome
+    decimals: 18

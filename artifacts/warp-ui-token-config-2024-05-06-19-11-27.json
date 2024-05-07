@@ -1,0 +1,10 @@
+{
+  "chainId": 1712771388991266,
+  "name": "Saga Cats Dogs Food",
+  "symbol": "SCDF",
+  "decimals": 0,
+  "type": "collateral",
+  "address": "0x01FDCCb5f12140f8Ea36272C772f5efBF48Ac731",
+  "hypCollateralAddress": "0x7d4CdC672F39f7f23496EC35a56fEd7C7B23B491",
+  "isNft": true
+}
